@@ -1,228 +1,95 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>W3.CSS Template</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-    .w3-row-padding img {margin-bottom: 12px}
-    /* Set the width of the sidebar to 120px */
-    .w3-sidebar {width: 120px;background: #222;}
-    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-    #main {margin-left: 120px}
-    /* Remove margins from "page content" on small screens */
-    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
-    </style>
-  </head>
-<body class="w3-black">
-
-<!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-  <!-- Avatar image in top left corner -->
-  <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" style="width:100%">
-  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <i class="fa fa-home w3-xxlarge"></i>
-    <p>HOME</p>
-  </a>
-  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-user w3-xxlarge"></i>
-    <p>ABOUT</p>
-  </a>
-  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-eye w3-xxlarge"></i>
-    <p>PHOTOS</p>
-  </a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-envelope w3-xxlarge"></i>
-    <p>CONTACT</p>
-  </a>
-</nav>
-
-<!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
-    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
-  </div>
-</div>
-
-<!-- Page Content -->
-<div class="w3-padding-large" id="main">
-  <!-- Header/Home -->
-  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> KEFA MWENDA.</h1>
-    <p>NetworkEngneer and Web Designer.</p>
-    <img src="https://www.w3schools.com/w3images/man_smoke.jpg" alt="boy" class="w3-image" width="992" height="1108">
+  <header>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>My Portfolio</title>
+      <img id="logo" src="1517469852630.png" alt="logo">
+      <nav>
+        <a href="#" id="menu-icon"></a>
+       <ul>
+        <li><a href="#Intro">INTRO</a></li>
+        <li><a href="#Education">EDUCATION</a></li>
+        <li><a href="#Interests">INTERESTS</a></li>
+        <li><a href="#Skills">SKILLS</a></li>
+        <li><a href="#Hobbies">HOBBIES</a></li>
+        <li><a href="#About_Me">ABOUT ME</a></li>
+       </ul>
+      </nav>
   </header>
-
-  <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-light-grey">My Name</h2>
-    <hr style="width:200px" class="w3-opacity">
-    <p>Professional Network Engineer skilled at overseeing complex company networks with a focus on 
-      efficiency and performance optimization. Detail-orientated and proactive with strong 
-        management, troubleshooting, training, communication, and analytical abilities.
-.
+  <body>
+    <div class="introduction">
+      <img src="1517469852630.png" alt="Kefa Mwenda">
+         <div class="bottom-left"><h1>Kefa Mwenda</h1><h2>Datacenter Networks Engineer at Safaricom PLC</h2></div>
+    </div>
+    <div class="content">
+      <p id="Intro"><b>INTRO</b><br><br>
+         I am an professional services Engineer , with a passion for network with more than 10 years of experience in leading large-scale technology projects from design through to implementation. I am stimulated by challenging work and continuously utilize my skills to build secure network infrastructure that are resilient to various cyber-attacks.</p>
+      <p id="Education"><b>EDUCATION</b><br>
+       <ul>
+         <li>Robotics Process Automation Class, Safaricom Digital Academy (Moringa School)</li>
+         <li>Bachelor of IT, (Second Class Honors Upper Division)
+             Jommo Kenyatta University, Nairobi, Kenya</li>
+       </ul>
+     </p>
+     <p id="Interests"><b>INTERESTS</b>
+      <ul>
+        <li>Coding</li>
+        <li>Machine Learning</li>
+        <li>Internet of Things</li>
+        <li>Automation</li>
+        <li>Artificial Intelligence</li>
+      </ul>
     </p>
-    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-    <p class="w3-wide">Photography</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
-    </div>
-    <p class="w3-wide">Web Design</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
-    </div>
-    <p class="w3-wide">Photoshop</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
-    </div><br>
-    
-    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">11+</span><br>
-        Partners
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">55+</span><br>
-        Projects Done
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">89+</span><br>
-        Happy Clients
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">150+</span><br>
-        Meetings
-      </div>
-    </div>
+    <p id="Skills"><b>SKILLS</b>
+      <ul>
+        <li>WAN/LAN Set up and Design.</li>
+        <li>Virtual Private Network (VPN) deployment and maintenance.</li>
+        <li>Routing and switching.</li>
+        <li>Network security and Firewall Management.</li>
+        <li>Cloud Computing and virtualization Technologies</li>
+     </ul>
+    </p>
+    <p id="Hobbies"><b>HOBBIES</b>
+      <ol>
+        <li>Cycling.</li>
+        <li>Working out.</li>
+        <li>Hiking.</li>
+        <li>Planting Trees.</li>
+        <li>Travelling.</li>
+     </ol> 
+    </p>
+    <h3>List of Projects done:</h3>
+    <ol>
+       <li><a href="float/index.html">Using Floats</a></li>
+         <p>This is a html project testing use of floats.</p>
+       <li><a href="test-css/span/index.html">Using Spans</a></li>
+         <p>This is a html project testing use of spans</p>
+      <li><a href="branching-test-project/branching-website.html">Branching</a></li>
+        <p>This is a html project testing Branch use in Git</p>
+   </ol>
 
-    <button class="w3-button w3-light-grey w3-padding-large w3-section">
-      <i class="fa fa-download"></i> Download Resume
-    </button>
-    
-    <!-- Grid for pricing tables -->
-    <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half w3-margin-bottom">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">5GB Storage</li>
-          <li class="w3-padding-16">Mail Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 10</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-
-      <div class="w3-half">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">50GB Storage</li>
-          <li class="w3-padding-16">Endless Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 25</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-    <!-- End Grid/Pricing tables -->
-    </div>
-    
-    <!-- Testimonials -->
-    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
-    <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
-    <p>Kefa Mwenda saved us from a web disaster.</p><br>
-    
-    <img src="https://www.w3schools.com/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
-    <p>No one is better than Kefa Mwenda.</p>
-  <!-- End About Section -->
-  </div>
+   <p id="About_Me"><b>ABOUT ME</b><br><br>I am a graduate of <span class="important">BSC IT from JKUAT University</span> and currently work as a DCN ENGINEER at Safaricom PLC.  I am tasked with the function of providing support to network related faults/ providing solutions on how to enhance the efficiency of our current network design through automation. I am stimulated by challenging work and have a natural curiosity which drives my work ethic.</p>
+     
+   <p>My passion in simplifying work has been the key motivation on why I chose to enroll for the <strong>Robotics and Process Automation Programming class</strong>. My day-to-day work involves repetitive operational tasks for provisioning customers ipsec vpn tunnels and remote access ssl vpn which is a very manual and time-consuming process. Also, as part of my role, I am tasked with bulk deployment of network devices and will be keen on developing a tool that can help push these configurations at once for easy management and reduction of human errors that occur when manually running the scripts. Generally, I intend to use my automation skills to help Safaricom to achieve higher productivity, reliability, availability and increased performance for our systems.</p>
   
-  <!-- Portfolio Section -->
-  <div class="w3-padding-64 w3-content" id="photos">
-    <h2 class="w3-text-light-grey">My Photos</h2>
-    <hr style="width:200px" class="w3-opacity">
-
-    <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half">
-        <img src="https://www.w3schools.com/w3images/wedding.jpg" style="width:100%">
-        <img src="https://www.w3schools.com/w3images/rocks.jpg" style="width:100%">
-        <img src="https://www.w3schools.com/w3images/sailboat.jpg" style="width:100%">
-      </div>
-
-      <div class="w3-half">
-        <img src="https://www.w3schools.com/w3images/underwater.jpg" style="width:100%">
-        <img src="https://www.w3schools.com/w3images/chef.jpg" style="width:100%">
-        <img src="https://www.w3schools.com/w3images/wedding.jpg" style="width:100%">
-        <img src="https://www.w3schools.com/w3images/p6.jpg" style="width:100%">
-      </div>
-    <!-- End photo grid -->
-    </div>
-  <!-- End Portfolio Section -->
-  </div>
-
-  <!-- Contact Section -->
-  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-    <h2 class="w3-text-light-grey">Contact Me</h2>
-    <hr style="width:200px" class="w3-opacity">
-
-    <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chicago, US</p>
-      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
-    </div><br>
-    <p>Let's get in touch. Send me a message:</p>
-
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
-      <p>
-        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </p>
-    </form>
-  <!-- End Contact Section -->
-  </div>
-  
-<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
-<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
- <p class="w3-small">This website was made with W3schools Spaces. Make your own free website today!</p>
- <a class="w3-button w3-round-xxlarge w3-small w3-light-grey" href="https://www.w3schools.com/spaces" target="_blank">Start now</a> 
- <!-- End footer -->
-</footer>
-
-<!-- END PAGE CONTENT -->
-</div>
-
+ </div>
 </body>
+<footer>
+  <section>
+   <h3>Let's Talk</h3>
+     <img id="logo" src="img/moringa.png" alt="moringaschool">
+     <p><strong>kefa.mwenda@student.moringaschool.com</strong></p>
+  </section>
+  <section>
+   <h3>Follow me!</h3>
+    <ul class="social">
+     <li><a href="https://twitter.com/kefamwenda"><img src="img/linkedin.png"></a></li>
+     <li><a href="https://www.linkedin.com/in/kefamwenda/"><img src="linkedin.png"></a></li>
+   </ul>
+  </section>
+ </footer>
+ <footer class="second">
+  <p>©copyright - Kefa Mwenda, 2023.</p>
+ </footer>
 </html>
+
